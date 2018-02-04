@@ -6,12 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.example.android.jokelibrary.JokeTeller;
-
-
 public class MainActivity extends AppCompatActivity {
-
-    JokeTeller jokeTeller = new JokeTeller();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

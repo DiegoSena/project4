@@ -50,7 +50,7 @@ public class EndpointAsyncTask extends AsyncTask<Pair<Context, String>, Void, St
         }
 
         try {
-            return myApi.putJoke(new JokeTellerBean()).execute().getJoke();
+            return myApi.putJoke().execute().getJoke();
         } catch (IOException e) {
             e.printStackTrace();
         }

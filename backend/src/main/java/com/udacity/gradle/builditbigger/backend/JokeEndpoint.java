@@ -15,14 +15,10 @@ import com.google.api.server.spi.config.ApiNamespace;
 
 public class JokeEndpoint {
 
-    /**
-     * A simple endpoint method that takes a name and says Hi back
-     */
     @ApiMethod(name = "putJoke")
-    public JokeTellerBean putJoke(JokeTellerBean joke) {
-//        JokeBean response = new JokeBean();
-//        response.setJoke("Hi, " + name);
-        return joke;
+    public JokeTellerBean putJoke() {
+        JokeTellerBean jokeTellerBean = new JokeTellerBean();
+        return jokeTellerBean;
     }
 
 }
